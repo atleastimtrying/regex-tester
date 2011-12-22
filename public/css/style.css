@@ -1,0 +1,74 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+html{
+  background:#100000;
+  color:#100000;
+  text-shadow: 1px 1px 1px #eee;
+  font-family:sans-serif;
+}
+body{
+  width:600px;
+  margin:0 auto;
+}
+header{
+  background:#ccc;
+}
+
+article{
+  padding:20px;
+  padding-bottom:0;
+  border:1px solid #ccc;
+  margin:0 auto;
+  background:#fff;
+}
+
+h1{
+  font-size:30px;
+  padding:20px;
+  border:1px solid #ccc;
+  text-align:center;
+}
+
+h2{
+  font-size:24px;
+  margin-bottom:20px;
+}
+
+textarea, section#output, input#modifier{
+  font-family: 'Enriqueta', serif;
+  font-size:24px;
+  display:block;
+  width:auto;
+  padding:20px;
+  border:1px solid #ccc;
+  min-width:515px;
+  margin-bottom:20px;
+  resize:none;
+  border-radius:5px;
+}
+
+textarea, section#output{  
+  min-height:150px;
+}
+
+button{
+  display:block;
+  padding:20px;
+  font-size:24px;
+  width:560px;
+  margin-bottom:20px;
+  color:#fff;
+  background:#333;
+  border-radius:5px;
+}
+
+button:hover{
+  background:#000;
+  cursor:pointer;
+}
+span{
+  display:block;
+}
