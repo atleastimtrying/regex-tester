@@ -2,52 +2,59 @@
   margin:0;
   padding:0;
   border:0;
-}
-html{
-  background:#100000;
+  font-size:16px;
   color:#100000;
   text-shadow: 1px 1px 1px #eee;
   font-family:sans-serif;
+
+}
+html{
+  background:#666;
 }
 body{
-  width:600px;
+  max-width:600px;
   margin:0 auto;
 }
 header{
-  background:#ccc;
+  background:#ddd;
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
 }
 
 article{
-  padding:20px;
+  padding:16px;
   padding-bottom:0;
   border:1px solid #ccc;
+  border-top:0;
   margin:0 auto;
-  background:#fff;
+  background:#eee;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
 }
 
 h1{
-  font-size:30px;
-  padding:20px;
-  border:1px solid #ccc;
+  font-size:42px;
+  padding:16px;
   text-align:center;
 }
 
 h2{
   font-size:24px;
-  margin-bottom:20px;
+  margin-bottom:8px;
 }
 
 textarea, section#output, input#modifier{
   font-family: 'Enriqueta', serif;
-  font-size:24px;
+  font-size:16px;
   display:block;
   width:auto;
-  padding:20px;
+  padding:7px;
   border:1px solid #ccc;
-  min-width:515px;
+  width:550px;
   margin-bottom:20px;
   resize:none;
-  border-radius:5px;
+  border-radius:4px;
+  background:#fcfcfc;
 }
 
 textarea, section#output{  
@@ -56,13 +63,14 @@ textarea, section#output{
 
 button{
   display:block;
-  padding:20px;
-  font-size:24px;
-  width:560px;
-  margin-bottom:20px;
+  padding:8px 0;
+  width:auto;
+  margin-bottom:16px;
   color:#fff;
   background:#333;
-  border-radius:5px;
+  width:566px;
+  border-radius:4px;
+  text-shadow:none;
 }
 
 button:hover{
