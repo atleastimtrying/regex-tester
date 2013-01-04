@@ -1,8 +1,6 @@
 window.onload = function (){
   document.getElementById('source').value = "I find that because I am a regular internet user, when I look at lolcats I pull funny expressions whilst looking at the screen. I think that memes are easy to make but they're funny!";
-
   document.getElementById('modifier').value = 'g';
-
   document.getElementById('regex').value = '(\\sr.*?r\\s)|(\\se.*?s\\s)|(are)|(\\se.*?y\\s)|!';
   document.getElementById('go').onclick = function(){
     var source = document.getElementById('source').value;
@@ -16,9 +14,6 @@ window.onload = function (){
     }else{
       string = 'no results!'
     }
-
     document.getElementById('output').innerHTML = string;
-
   }
-
 }
